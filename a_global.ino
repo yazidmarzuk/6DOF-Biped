@@ -1,12 +1,5 @@
-/**************************************************************************************
-Arduino 6DOF Biped
-Written by : PINPOINTECE
-Website: www.youtube.com/c/pinpointece
-Date Modified: 10/08/2016
 
-*************************************************************************************/
 
-// Include servo library
 #include <Servo.h> 
 
 // Creating servo objects

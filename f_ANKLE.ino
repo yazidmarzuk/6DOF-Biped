@@ -1,6 +1,3 @@
-/********ANKLE FUNCTIONS******************************************/
-
-/******First Time********************************************/
 void leftAnkleOut ()
 {
  for (int i = 0; i < 15 ; i++ )
@@ -10,7 +7,7 @@ void leftAnkleOut ()
 
 
 void rightAnkleOut()
-{for (int i = 0; i < 10 ; i++ )
+{for (int i = 0; i < 15 ; i++ )
     {rightAnkle.write(rightAnklePos-i);   //right ankle out 
      delay(forDelay);}
 }
