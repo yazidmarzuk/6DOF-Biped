@@ -1,3 +1,23 @@
-# 6DOF-Biped
+---
+description: >-
+  This is intended as a Quick-Reference for myself and others working in similar
+  areas. I am still working on  updating it. Please let me know your
+  suggestions.
+---
 
-Most of current biped robots are active walking platforms. Though they have strong locomotion ability and good adaptability to environments, they have a lot of degrees of freedom (DoFs) and hence result in complex control and high energy consumption. On the other hand, passive or semi-passive walking robots require less DoFs and energy, but their walking capability and robustness are poor. To overcome these shortcomings, we have developed a novel active biped walking robot with only six DoFs. The robot consists of an arm as the main body and two wheels as the feet. With this novel configuration, the robot can walk in several special walking gaits different from those of traditional biped robots. And for these gaits, the criterion of stable walking needs to be developed and analyzed.With this project, I aim to mimc the basic humanoid features like walking gaits, dynamic stability and walking pattern with moment compensation are presented.
+# My Public NoteBook
+
+Greetings [🖖](https://emojipedia.org/vulcan-salute/),
+
+I am updating this notebook regularly whenever I stumble upon some really cool stuff, I make sure that I add it onto here. please feel free to go thru the content and give suggestions. 
+
+Yours Truly, 
+
+Yazid Marzuk KP
+
+marzukkp@gmail.com
+
+
+
+
+
