@@ -5,6 +5,7 @@
 * [Networking](untitled/README.md)
   * [Networking](untitled/networking.md)
 * [ROS - The Robotic Operating System!](ros-the-robotic-operating-system/README.md)
+  * [Gazebo](ros-the-robotic-operating-system/gazebo.md)
   * [Catkin Workspaces](ros-the-robotic-operating-system/catkin-workspaces.md)
   * [ROS Nodes](ros-the-robotic-operating-system/ros-nodes.md)
   * [Kalman filters](ros-the-robotic-operating-system/kalman-filters.md)
