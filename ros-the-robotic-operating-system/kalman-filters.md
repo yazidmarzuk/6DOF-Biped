@@ -209,7 +209,7 @@ Highlighted in blue are the Jacobians that replaced the measurement and state tr
 
 The Extended Kalman Filter requires us to calculate the Jacobian of a nonlinear function as part of every single iteration, since the mean \(which is the point that we linearize about\) is updated.
 
-  
+    
 
 
 
