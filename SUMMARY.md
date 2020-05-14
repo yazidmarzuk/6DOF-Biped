@@ -1,6 +1,7 @@
 # Table of contents
 
 * [My Public NoteBook](README.md)
+* [CLI - GIT](cli-git.md)
 * [Battery Management Systems](battery-management-systems.md)
 * [Networking](untitled/README.md)
   * [Networking](untitled/networking.md)
