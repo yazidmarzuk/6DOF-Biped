@@ -52,7 +52,7 @@ $ git commit -a
 ```
 
 which will automatically notice any modified \(but not new\) files, add them to the index, and commit, all in one step.  
-
+   
 
 ### Viewing project history <a id="_viewing_project_history"></a>
 
