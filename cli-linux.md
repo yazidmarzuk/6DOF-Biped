@@ -54,7 +54,17 @@ sudo apt-get clean
 sudo apt-get autoremove
 ```
 
-### 
+To get free space info in human readable form run:
+
+```text
+free -h
+```
+
+To get your IP
+
+```text
+$ ip addr
+```
 
   
 
