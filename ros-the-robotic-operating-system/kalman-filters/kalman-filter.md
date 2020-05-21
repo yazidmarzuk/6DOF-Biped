@@ -1,10 +1,10 @@
-# Kalman filters
+# KALMAN FILTER
 
 **Kalman filtering**, also known as **linear quadratic estimation** \(**LQE**\), is an algorithm that uses a series of measurements observed over time, containing statistical noise and other inaccuracies, and produces estimates of unknown variables that tend to be more accurate than those based on a single measurement alone, by estimating a joint probability distribution over the variables for each time frame.
 
 This is the role of a Kalman Filter - after a movement or a measurement update, it outputs a unimodal Gaussian distribution. This is its best guess at the true value of a parameter. 
 
-![Kalman filter comparison with other filters](../.gitbook/assets/kalman-filter.png)
+![Kalman filter comparison with other filters](../../.gitbook/assets/kalman-filter.png)
 
 ### There are exists three types of Kalman filters :
 
@@ -63,7 +63,7 @@ $$τ$$ : Mean of the posterior
 The two Gaussians provide us with more information together than either Gaussian offered alone. As a result, our new state estimate is more confident than our prior belief and our measurement. This means that it has a higher peak and is narrower. You can see this in the graph below.[  
 ](https://classroom.udacity.com/nanodegrees/nd209/parts/a431d446-05df-4641-9e3d-79e1d55a7a2f/modules/b66739be-878e-4cea-8569-881b7eb2d34c/lessons/f002d591-94af-4c70-aeac-ac2ed6f7b527/concepts/0976a728-e605-4149-9074-cba310f02b9f#) 
 
-![](../.gitbook/assets/c2l2-graph-3.png)
+![](../../.gitbook/assets/c2l2-graph-3.png)
 
 
 
@@ -208,9 +208,4 @@ $$
 Highlighted in blue are the Jacobians that replaced the measurement and state transition functions.
 
 The Extended Kalman Filter requires us to calculate the Jacobian of a nonlinear function as part of every single iteration, since the mean \(which is the point that we linearize about\) is updated.
-
-    
-
-
-
 

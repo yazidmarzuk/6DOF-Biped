@@ -1,3 +1,7 @@
+---
+description: All the basic commands for LINUX Command line I came across
+---
+
 # CLI - LINUX
 
 ### Update the System:
@@ -16,7 +20,7 @@ sudo apt upgrade
 sudo apt install gnome-tweaks
 ```
 
-* **Install VLC**
+## **Install Useful Apps**
 
 ```text
 sudo apt install vlc
@@ -39,6 +43,8 @@ sudo apt-get update
 ```text
 sudo apt-get install typora
 ```
+
+
 
 * **Cleanup**
 
@@ -66,8 +72,11 @@ To get your IP
 $ ip addr
 ```
 
-  
+### Activate minimize to Dock
 
+```text
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+```
 
-
+###  <a id="8-enable-drive-cache"></a>
 

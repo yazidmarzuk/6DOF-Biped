@@ -1,7 +1,6 @@
 # Table of contents
 
 * [My Public NoteBook](README.md)
-* [NAS server](nas-server.md)
 * [CLI - LINUX](cli-linux.md)
 * [CLI - GIT](cli-git.md)
 * [Battery Management Systems](battery-management-systems.md)
@@ -12,5 +11,7 @@
   * [Gazebo](ros-the-robotic-operating-system/gazebo.md)
   * [Catkin Workspaces](ros-the-robotic-operating-system/catkin-workspaces.md)
   * [ROS Nodes](ros-the-robotic-operating-system/ros-nodes.md)
-  * [Kalman filters](ros-the-robotic-operating-system/kalman-filters.md)
+  * [Localization](ros-the-robotic-operating-system/kalman-filters/README.md)
+    * [KALMAN FILTER](ros-the-robotic-operating-system/kalman-filters/kalman-filter.md)
+    * [MonteCarlo Localization](ros-the-robotic-operating-system/kalman-filters/montecarlo-localization.md)
 

@@ -1,10 +1,8 @@
 ---
-description: All the basic commands for various Command line I came across
+description: All the basic commands for GIT Command line I came across
 ---
 
 # CLI - GIT
-
-Assume you have a index.html with your initial work. You can place it under Git revision control as follows.
 
 ```text
 $ cd project

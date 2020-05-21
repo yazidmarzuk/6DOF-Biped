@@ -10,6 +10,15 @@ ROS is an open-source software framework for robotics development. It is not an 
 
 ![](../.gitbook/assets/capture.PNG)
 
+### Installing ROS on a VM ware
+
+```text
+$ sudo apt-get install ros-kinetic-navigation
+$ sudo apt-get install ros-kinetic-map-server
+$ sudo apt-get install ros-kinetic-move-base
+$ sudo apt-get install ros-kinetic-amcl
+```
+
 ### ROS messages
 
 ROS uses a simplified messages description language for describing the data values \(aka [messages](http://wiki.ros.org/Messages)\) that ROS [nodes](http://wiki.ros.org/Nodes) publish. This description makes it easy for ROS tools to automatically generate source code for the message type in several target languages. Message descriptions are stored in .msg files in the msg/ subdirectory of a ROS [package](http://wiki.ros.org/Packages).
