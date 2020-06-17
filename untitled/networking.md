@@ -86,3 +86,13 @@ subnetting is the process of taking a large network and splitting it up into man
 
 
 
+## Nat Network
+
+What NAT does is that it hides the IP of computer one from computer two. This is known as IP masquerading. IP masquerading is an important security concept. The most basic concept at play here is that no one can establish a connection to your computer if they don't know what IP address it has. By using NAT in the way we've just described, we could actually have hundreds of computers on network A, all of their IPs being translated by the router to its own.
+
+
+
+
+
+
+

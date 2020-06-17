@@ -4,25 +4,62 @@ description: All the basic commands for GIT Command line I came across
 
 # CLI - GIT
 
+
+
+## Git Command Line Interface
+
+GitHub Git Cheat Sheet : [https://education.github.com/git-cheat-sheet-education.pdf](https://education.github.com/git-cheat-sheet-education.pdf)
+
+#### Setup
+
+**Set Username :**
+
 ```text
-$ cd project
-$ git init
+git config --global user.name “marzukkp”
 ```
 
-You’ve now initialized the working directory—​you may notice a new directory created, named ".git".
-
-Next, tell Git to take a snapshot of the contents of all files under the current directory \(note the _._\), with _git add_:
+**Set User Email :**
 
 ```text
-$ git add .
+git config --global user.email “marzukkp@gmail.com”
 ```
 
-### Making changes <a id="_making_changes"></a>
-
-Modify some files, then add their updated contents to the index:
+**Initialize :**
 
 ```text
-$ git add file1 file2 file3
+git init
+```
+
+**Add Files :**
+
+* Add a particular file
+
+  ```text
+  git add <file>		
+  ```
+
+* Add all files in folder
+
+  ```text
+  git add --all  
+  ```
+
+* Add all the Folders, Subfolders and files.
+
+  ```text
+  git add --all :/ 
+  ```
+
+**Attach remote repository :**
+
+```text
+git remote add origin https://github.com/yazidmarzuk/<repo>.git
+```
+
+**Push to remote repository :**
+
+```text
+git push -u origin master
 ```
 
 You are now ready to commit. You can see what is about to be committed using _git diff_ with the --cached option:
