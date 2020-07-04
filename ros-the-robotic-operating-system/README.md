@@ -4,7 +4,7 @@ description: This note is a quick-reference guide to ROS.
 
 # ROS - The Robotic Operating System!
 
-
+### PERCEPTION - DECISION MAKING - ACTUATION
 
 ROS is an open-source software framework for robotics development. It is not an operating system in the typical sense. But like an OS, it provides a means of communicating with hardware. It also provides a way for different processes to communicate with one another via message passing. Lastly, ROS features a slick build and package management system called catkin, allowing you to develop and deploy software with ease. ROS also has tools for visualization, simulation, and analysis, as well as extensive community support and interfaces to numerous powerful software libraries.
 
