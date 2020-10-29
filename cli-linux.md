@@ -14,6 +14,12 @@ sudo apt update
 sudo apt upgrade
 ```
 
+* **Time lag fix - linux VS Windows**
+
+```text
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
 * **Enable Gnome Extensions**
 
 ```text
