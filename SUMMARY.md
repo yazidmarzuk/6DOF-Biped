@@ -1,7 +1,8 @@
 # Table of contents
 
 * [My Public NoteBook](README.md)
-* [CLI - LINUX](cli-linux.md)
+* [CLI - LINUX](cli-linux/README.md)
+  * [After Ubuntu Installation](cli-linux/after-ubuntu-installation.md)
 * [CLI - GIT](cli-git.md)
 * [Battery Management Systems](battery-management-systems/README.md)
   * [The Project](battery-management-systems/the-project.md)
