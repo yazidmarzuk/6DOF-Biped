@@ -54,20 +54,6 @@ subl
 sudo apt-get install libavcodec-dev libsdl1.2-dev xsltproc libbullet-dev libsdl1.2-dev libgoogle-glog-dev protobuf-compiler python-wstool
 ```
 
-#### Install Gazebo
-
-If you are using Ubuntu 16.04, download Gazebo 7
-
-```text
-sudo apt-get install gazebo7 libgazebo7-*
-```
-
-Or else if you are using Ubuntu 18.04, download Gazebo 9
-
-```text
-sudo apt-get install gazebo9 libgazebo9-*
-```
-
 #### Install Arduino IDE
 
 Open up a terminal in arduino folder and then type this command
