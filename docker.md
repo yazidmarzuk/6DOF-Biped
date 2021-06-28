@@ -30,3 +30,15 @@ Execute the Container with:
 sudo docker exec -it <DockerName>
 ```
 
+Stop the Container with: 
+
+```text
+ docker stop CONTAINER <ContainerID>
+```
+
+Remove the Container:
+
+```text
+docker rm CONTAINER <ContainerID>
+```
+
