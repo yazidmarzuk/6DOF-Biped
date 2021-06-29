@@ -27,7 +27,7 @@ sudo docker ps
 Execute the Container with: 
 
 ```text
-sudo docker exec -it <DockerName>
+sudo docker exec -it <DockerName> bash
 ```
 
 Stop the Container with: 
@@ -41,4 +41,18 @@ Remove the Container:
 ```text
 docker rm CONTAINER <ContainerID>
 ```
+
+Creating a Docker Image
+
+```text
+$ docker ps -a
+2CONTAINER ID     IMAGE      COMMAND    CREATED               STATUS              NAMES
+3c3df2dd33276  example-image "date"  5 seconds ago   Exited (0) 4 seconds ago  example_app
+4
+5$ docker commit example_app example_image2:latest
+6sha256:7b48e8355aa7a7ea32d554f26d0bd21f4d069d8526c68f1d098acac9111a9adf
+```
+
+shell  
+
 
